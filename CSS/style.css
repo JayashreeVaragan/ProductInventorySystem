@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.headings{
+    float:right;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.bottom{
+    float:left;
+    margin: 0 auto;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #000 ;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+nav h2{ 
+    color:#fff;
+    float:left;
+    margin:0 auto;
+}
+.headings p{
+    line-height: 200px; /* Create scrollbar to test positioning */
+}
+.bottom p{
+    line-height: 200px; /* Create scrollbar to test positioning */
+}
+.button{
+    color:#fff;
+background: #000;
+    
+}
+  .container {
+      float:left;
+  width: 25%;
+  padding: 0 5px;
+  border:1px solid;
+  margin:10px;
+  }
+  body{
+    height:100%;
+}
+
+.grandParentContaniner{
+    display:table; height:100%; margin: 0 auto;
+    border:1px solid;
+    padding :20px;
+  height:50%;
+  width:25%;
+  margin-top:100px;
+  margin-bottom:100px;
+    
+}
+
+.parentContainer{
+    display:table-cell; vertical-align:middle;
+}	
+.img{
+    width: 100%;
+    height:200px;
+    size: 500px;
+    
+}
+
+
+.card{
+     /* this adds the "card" effect */
+  padding: 10px;
+  background-color: #f1f1f1;
+  
+}
+.container{
+    margin:50px;
+    
+    width:300px;
+  min-height: 150px;
+}
